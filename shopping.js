@@ -12,7 +12,7 @@ function addItem(){
     itemName:input.value,
     ismarked:false
   }
-   if (newitem.itemName != ''){
+   if (newitem.itemName.trim() != ''){
     let li = document.createElement("li");
     li.innerHTML = newitem.itemName;
     li.classList.add("liststyle");
