@@ -1,97 +1,86 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: 'Poppins',sans-serif;
-    box-sizing:border-box
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-.main{
-    background-color:pink ;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    
+.main {
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-    background-color: white;
-    border-radius: 5px;
-    width: 400px;
-    min-height:600px;
-    padding:20px;
-    
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  min-height: 600px;
+  padding: 20px;
 }
 
-h2{
-    position: static;
-    text-transform:capitalize;
-    letter-spacing: 2px;
-    display:flex;
-    align-items:center ;
-    margin-bottom: 15px;
-
+h2 {
+  position: static;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-
-
-#textinput{
-    width:100%;
-    padding:10px;
-    font-size: 25px;
-    font-weight:normal;
-    letter-spacing: 2px;
+#textinput {
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
 
-
-
-.list-container{
-    overflow-y:scroll;
+.list-container {
+  overflow-y: scroll;
 }
 
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
 
+span {
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #e01616;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
 
- ul li{
-   list-style:none ;
-   font-size: 17px;
-   padding:  12px 8px 12px 50px ;
-   user-select: none;
-   cursor:pointer;
-   position:relative
- }
+ul li.checked {
+  color: #555;
+  background-color: rgba(35, 147, 35, 0.82);
+  text-decoration: line-through;
+}
 
- span{
-    right:0;
-    top:5px;
-    width:40px;
-    height:40px;
-    font-size: 22px;
-    color:#e01616;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
- }
+ul li span:hover {
+  background: #edeef0;
+}
 
- ul li.checked{
-    color:#555;
-    background-color: rgba(35, 147, 35, 0.82);
-    text-decoration: line-through;
- }
- 
- ul li span:hover{
-    background: #edeef0;
- }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
- ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
-  
- 
+.liststyle {
+  background-color: rgba(0, 98, 128, 0.333);
+  margin: 10px;
+}
 
- .liststyle{
-    background-color: rgba(0, 98, 128, 0.333);
-    margin:10px;
- }
